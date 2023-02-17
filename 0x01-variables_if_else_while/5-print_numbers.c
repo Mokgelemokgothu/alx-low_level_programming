@@ -1,25 +1,16 @@
+
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-
 /**
- *  * main - Entry point
- *   * Description: Print numbers 0 to 9 followed by a newline
- *    * Return: Always 0 (Success)
- *     * Author: Mokgelemokgothu
+ * main - prints all single digit numbers of base
+ * 10 starting from 0, followed by a new line
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int a;
-	a = 0;
+	int n;
 
-	while (a <= 9)
-	{
-			printf("%d", a);
-				a++;
-	}
-	putchar('\n');
-
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
 	return (0);
-}
+}}
