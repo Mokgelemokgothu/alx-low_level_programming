@@ -4,9 +4,9 @@
 
 /**
  *  * main - Entry point
- *   * Description: Print all the digits of base 16 in lowercase
- *    * Return: Always 0 (Success)
- *     * Author: Mokgelemokgothu
+ * * Description: Print all the digits of base 16 in lowercase
+ * * Return: Always 0 (Success)
+ * * Author: Mokgelemokgothu
  */
 
 int main(void)
@@ -15,11 +15,11 @@ int main(void)
 
 	for (x = '0'; x <= '9'; ++x)
 	{
-			putchar(x);
+		putchar(x);
 	}
 	for (x = 'a'; x <= 'f'; ++x)
 	{
-			putchar(x);
+		putchar(x);
 	}
 	putchar('\n');
 
