@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <string.h>
 
-int _isdigit(int c)
+int _isupper(int c)
 {
-    return isdigit(c);
+    return (c >= 'A' && c <= 'Z');
 }
 
