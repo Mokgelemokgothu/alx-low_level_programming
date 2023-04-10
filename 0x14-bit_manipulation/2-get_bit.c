@@ -1,6 +1,11 @@
 #include"main.h"
 
 /**
+ *
+ * get_bit - returns the value of a bit at a given index.
+ * @n: number to check bits in
+ * @index: index at which to check bit*
+ *
  * get_bit - returns the value of a bit at a given index.
  */
 int get_bit(unsigned long int n, unsigned int index)
